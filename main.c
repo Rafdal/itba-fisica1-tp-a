@@ -1,10 +1,14 @@
+#include <stdio.h>
+#include <math.h>
 
-int main(int argc, char const *argv[])
+#include "datos.h"
+#include "calculos.h"
+
+int main (void) 
 {
-    /* code */
-    return 0;
-}
+    double dev_std = DEV_STD(&bolita_data[0][0]);
 
-int hola(void){
-    return 'A';
+    printf("Desviacion estandar: %f", dev_std);
+
+    return 0;
 }
