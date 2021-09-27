@@ -10,7 +10,7 @@ int main (void)
 
     double u_tita = Incerteza_Angulo(5, L_monedas, e_monedas, 0.001, 0.0001);
 
-    printf("u(tita): %.10f \n", u_tita);
+    printf("u(tita): %.20f \n", u_tita);
 
     // for (int i = 0; i < 6; i++)
     // {
