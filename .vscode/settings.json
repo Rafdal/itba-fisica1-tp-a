@@ -1,0 +1,8 @@
+{
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4,
+    "files.encoding": "utf8",
+    "files.associations": {
+        "agus_s.h": "c"
+    }
+}
