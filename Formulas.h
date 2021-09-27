@@ -8,7 +8,7 @@ double Incerteza_Angulo(double n, double L, double e, double u_L, double u_h0){
     c1 = (1/ sqrt(1- pow(e*n/10*L,2))) * (-e*n/10* pow(L,2));
 
     //Con respecto a e
-    c2 = (1/ sqrt(1- pow(e*n/10*L,2))) * (n, 10*L);
+    c2 = (1/ sqrt(1- pow(e*n/10*L,2))) * (n/ 10*L);
 
     //Incerteza Total
 
