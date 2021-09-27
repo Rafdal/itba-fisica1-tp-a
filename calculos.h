@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <math.h>
+#include "datos.h"
 
 #ifndef CALCULOS_H
 #define CALCULOS_H
 
-double DEV_STD(double data[]); // desviación estandard de 10 valores
+double DEV_STD(medicion_t data); // desviación estandard de 10 valores
 
-double DEV_STD(double data[]) {
+double DEV_STD(medicion_t data) {
     double sum = 0.0, mean, SD = 0.0;
 
     for (int i = 0; i < 10; ++i) {
