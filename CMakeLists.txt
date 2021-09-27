@@ -3,4 +3,4 @@ project(TPFisica)
 
 set(CMAKE_C_FLAGS "-Wall -pedantic -std=c99 -lm")
 
-add_executable(TPFisica main.c)
+add_executable(TPFisica Formulas.h)
