@@ -25,6 +25,8 @@ const double cilindro_data[][10] =
 	{1.26,1.19,1.23,1.2,1.22,1.2,1.21,1.2,1.21,1.24},
 };
 
+const double n_monedas[6] = {5, 6, 7, 8, 9, 10};
+
 const double L_monedas = 0.336; // distancia a linea de monedas
 const double l_dist = 0.3; // distancia recorrida
 const double h0	= 0.002114; // altura 1 moneda
