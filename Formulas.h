@@ -18,4 +18,3 @@ double Incerteza_Angulo(double n, double L, double e, double u_L, double u_h0){
 
     return Incerteza;
 }
-
