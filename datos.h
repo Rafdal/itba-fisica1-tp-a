@@ -5,7 +5,9 @@
 
 typedef unsigned int uint;
 
-const double bolita_data[][10] =
+typedef double medicion_t[10];
+
+const medicion_t bolita_data[10] = 
 {
 	{1.75,1.78,1.72,1.75,1.76,1.77,1.78,1.79,1.78,1.75}, // altura 5 monedas
 	{1.56,1.55,1.53,1.5,1.51,1.54,1.52,1.53,1.57,1.56}, // altura 6 monedas
@@ -15,7 +17,7 @@ const double bolita_data[][10] =
 	{1.18,1.15,1.16,1.2,1.18,1.15,1.16,1.2,1.21,1.24}, // altura 10 monedas
 };
 
-const double cilindro_data[][10] = 
+const medicion_t cilindro_data[10] = 
 {
 	{1.79,1.78,1.82,1.75,1.83,1.74,1.75,1.76,1.77,1.8},
 	{1.57,1.58,1.58,1.54,1.65,1.65,1.6,1.59,1.57,1.6},
@@ -29,6 +31,6 @@ const double n_monedas[6] = {5, 6, 7, 8, 9, 10};
 
 const double L_monedas = 0.336; // distancia a linea de monedas
 const double l_dist = 0.3; // distancia recorrida
-const double h0	= 0.002114; // altura 1 moneda
+const double e_monedas	= 0.02114; // altura 1 moneda
 
 #endif
