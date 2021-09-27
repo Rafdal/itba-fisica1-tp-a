@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g CMakeFiles/TPFisica.dir/main.c.o -o TPFisica 

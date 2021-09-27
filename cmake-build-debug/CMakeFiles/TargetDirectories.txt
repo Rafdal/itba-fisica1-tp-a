@@ -1,0 +1,3 @@
+/afs/it.itba.edu.ar/home/jfernandezdinardo/tmp/tmp.md9yayspCt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/afs/it.itba.edu.ar/home/jfernandezdinardo/tmp/tmp.md9yayspCt/cmake-build-debug/CMakeFiles/edit_cache.dir
+/afs/it.itba.edu.ar/home/jfernandezdinardo/tmp/tmp.md9yayspCt/cmake-build-debug/CMakeFiles/TPFisica.dir

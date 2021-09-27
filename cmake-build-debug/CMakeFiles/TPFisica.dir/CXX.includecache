@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/afs/it.itba.edu.ar/home/jfernandezdinardo/tmp/tmp.md9yayspCt/main.cpp
+iostream
+-
+
