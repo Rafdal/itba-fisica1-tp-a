@@ -12,11 +12,21 @@ int main (void)
 
     printf("u(tita): %.20f \n", u_tita);
 
-    // for (int i = 0; i < 6; i++)
-    // {
-    //     double dev_std = DEV_STD(bolita_data[i]);
-    //     printf("Desviacion estandar %u: %.20f\n", i, dev_std);
-    // }
+    for (int i = 0; i < 6; i++)
+    {
+        double Dx = DEV_STD(bolita_data[i]);
+        double u_T = hypo(Dx/sqrt(10), u_cronometro);
+
+        double u_a = Incerteza_Aceleracion(l_dist, PROM(bolita_data[i]), u_metro, u_T);
+        
+
+        printf("Altura: %.0f\n", n_monedas[i]);
+        printf("Dx: %.10f\n", Dx);
+        printf("Prom_T: %.10f\n", PROM(bolita_data[i]));
+        printf("u_T: %.10f\n", u_T);
+        printf("u_a: %.10f\n", u_a);
+    }
+
     
 
 
