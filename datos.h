@@ -33,4 +33,9 @@ const double L_monedas = 0.336; // distancia a linea de monedas
 const double l_dist = 0.3; // distancia recorrida
 const double e_monedas	= 0.02114; // altura 1 moneda
 
+// ! INCERTEZAS
+const double u_calibre = 0.0001; // metros
+const double u_metro = 0.001;	// metros
+const double u_cronometro = 0.01; // segundos
+
 #endif

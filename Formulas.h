@@ -24,8 +24,10 @@ double Incerteza_Angulo(double n, double L, double e, double u_L, double u_e){
     return Incerteza;
 }
 
-//l = distancia del recorrido de la particula
-//t = tiempo
+// l = distancia del recorrido de la particula
+// t = tiempo
+// u_l = incerteza de l
+// u_t = incerteza de t
 double Incerteza_Aceleracion(double l, double t, double u_l, double u_t){
     //Derivadas parciales
     double c1,c2;
