@@ -45,3 +45,22 @@ double Incerteza_Aceleracion(double l, double t, double u_l, double u_t){
     return Incerteza;
 
 }
+
+double Incerteza_AceleracionTeorica(double l, double e, double n, double u_l, double u_e){
+    //Derivadas parciales
+    double c1, c2;
+
+    //Con respecto a e
+    c1 = ((n * u_e * GRAVEDAD)/(10*l));
+
+    //Con respecto a l
+    c2 = ((-GRAVEDAD * e * n * u_l)/(10 * pow(l,2)));
+
+    //Incerteza Total
+
+    double Incerteza;
+
+    Incerteza = sqrt( pow(c1*u_e, 2) + pow(c2*u_l,2) );
+
+    return Incerteza;
+}
